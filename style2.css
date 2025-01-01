@@ -1,0 +1,68 @@
+#outer {
+	display: block;
+	/*box-sizing: content-box;*/
+	width: 300px;
+	padding: 7px;
+	align-self: center;
+	padding: 12px;
+	border: 5px solid rgb(52, 45, 45);
+	/* border: 10px; */
+	border-color: black;
+	border-radius: 6%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: fit-content;
+	background-color: rgb(44, 35, 35);
+}
+.disp {
+	/* margin-right: 2px; */
+	text-align: right;
+	width: max-content;
+	border-radius: 50%;
+	/* border: white; */
+	width: 100%;
+}
+
+.horizontal {
+	display: inline-flex;
+	align-items: center;
+	padding: 5px;
+}
+.buttons {
+	align-items: center;
+	padding: 10px;
+	margin: 4px;
+	border-radius: 15%;
+	height: 45px;
+	width: 50px;
+	/* width: 100%; */
+	font-size: larger;
+	font-weight: bold;
+	opacity: 65%;
+	cursor: pointer;
+}
+.buttons:hover {
+	padding-left: 1px;
+	opacity: 80%;
+	text-shadow: #161b21;
+}
+.buttons:active {
+	opacity: 100%;
+	transform: translateY(2px);
+}
+/* .button {
+	width: 80px;
+} */
+.symbols {
+	background-color: #5ea4f4;
+}
+.symbols2 {
+	color: wheat;
+	background-color: #161b21;
+}
+.complex {
+	background-color: rgb(188, 198, 198);
+}
+.num {
+	background-color: orange;
+}

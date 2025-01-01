@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min">
+        <title>Calculator </title>
+    </head>
+
+    <body>
+        <div id="outer">
+            <div class="horizontal" id="r1">
+                <input type="text" id="disp">
+            </div>
+            <br>
+            <div class="horizontal" id="r2">
+                <button class="complex buttons" onclick="add('√')">√</button>
+                <button class="complex buttons" onclick="add(3.14)">π</button>
+                <button class="complex buttons" onclick="add('^')">^</button>
+                <button class="complex buttons" onclick="add('!')">!</button>
+            </div>
+            <br>
+            <div class="horizontal" id="r3">
+                <button class="num buttons" onclick="add('.')">.</button>
+                <button class="symbols buttons" onclick="clr()">AC</button>
+                <button class="symbols buttons" onclick="del()">⌫
+                </button>
+                <button class="symbols buttons" onclick="add('/')">/</button>
+            </div>
+            <br>
+            <div class="horizontal" id="r4">
+                <button class="num buttons" onclick="add(7)">7</button>
+                <button class="num buttons" onclick="add(8)">8</button>
+                <button class="num buttons" onclick="add(9)">9</button>
+                <button class="symbols buttons" onclick="add('*')">x</button>
+            </div>
+            <br>
+            <div class="horizontal" id="r5">
+                <button class="num buttons" onclick="add(4)">4</button>
+                <button class="num buttons" onclick="add(5)">5</button>
+                <button class="num buttons" onclick="add(6)">6</button>
+                <button class="symbols buttons" onclick="add('-')">-</button>
+            </div>
+            <br>
+            <div class="horizontal" id="r6">
+                <button class="num buttons" onclick="add(1)">1</button>
+                <button class="num buttons" onclick="add(2)">2</button>
+                <button class="num buttons" onclick="add(3)">3</button>
+                <button class="symbols buttons" onclick="add('+')">+</button>
+            </div>
+            <br>
+            <div class="horizontal" id="r7">
+                <button class="num buttons" onclick="add(0)">0</button>
+                <button class="symbols buttons" onclick="add('(')">(</button>
+                <button class="symbols buttons" onclick="add(')')">)</button>
+                <button class="symbols2 buttons" onclick="add('=')">=</button>
+            </div>
+        </div>
+    </body>
+
+</html>
