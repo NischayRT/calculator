@@ -5,7 +5,7 @@ function add(x) {
 }
 
 function del() {
-	inp.value = substr(0, inp.value.length - 1);
+	inp.value = inp.value.substr(0, inp.value.length - 1);
 	console.log("delete value\n");
 }
 function clr() {
