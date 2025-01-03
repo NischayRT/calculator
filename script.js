@@ -1,13 +1,18 @@
-var inp = document.getElementById("disp");
+const inp = document.getElementById("disp");
 function add(x) {
-	inp.value = inp.value + x;
+	inp.value += x;
+	console.log("Enter add\n");
 }
+
 function del() {
 	inp.value = substr(0, inp.value.length - 1);
+	console.log("delete value\n");
 }
 function clr() {
-	inp.value = "";
+	inp.value = " ";
+	console.log("clear screen\n");
 }
 function equal() {
-	inp.value = eval.inp.value;
+	inp.value = eval(inp.value);
+	console.log("evaluating...\n");
 }
